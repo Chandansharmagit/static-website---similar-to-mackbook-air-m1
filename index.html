@@ -1,0 +1,3086 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!----font link   -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+    <!----bootsrap-->
+
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            background-color: rgb(0, 0, 0);
+
+        }
+
+        .apple {
+            width: auto;
+            height: 42px;
+            margin-left: -99px;
+        }
+
+        .nav {
+            margin-left: 157px;
+        }
+
+        .nav ul {
+            display: flex;
+            padding: 12px;
+            margin-left: 82px;
+        }
+
+        .nav ul li {
+            padding: 12px;
+            list-style: none;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 15px;
+            transition: 0.5s all;
+
+
+        }
+
+        .nav ul li a:hover {
+            color: rgba(241, 237, 237, 0.774);
+        }
+
+        .fa {
+            padding: 12px;
+            margin-left: 12px;
+            color: rgb(255, 255, 255);
+        }
+
+        /*   end of navbar css */
+        .row {
+            display: flex;
+        }
+
+        .col {
+            margin-left: 160px;
+        }
+
+        .col h5 {
+            color: rgba(241, 237, 237, 0.774);
+        }
+
+        .col h2 {
+            color: #fff;
+        }
+
+        .col ul {
+            display: flex;
+            padding: 14px;
+            margin-left: 149px;
+            transition: 0.4s all;
+        }
+
+        .col ul h4 {
+            margin-left: 40px;
+            color: #fff;
+            transition: 0.4s all;
+
+        }
+
+        .col ul h4:hover {
+            color: blue;
+
+        }
+
+        .col .apple-inc {
+            color: rgba(241, 237, 237, 0.774);
+            font-size: 16px;
+        }
+
+        .btnn {
+            border-radius: 5px;
+            background-color: blue;
+            border: none;
+            text-decoration: none;
+            margin-left: 12px;
+            color: #fff;
+            font-weight: bold;
+            margin-right: 12px;
+
+        }
+
+        .col ul a {
+            text-decoration: none;
+        }
+
+
+
+        /*   get macbook air m1 */
+
+        .mac {
+            background-color: black;
+            padding: 15px;
+        }
+
+        .mac .text-mac {
+            text-align: center;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        /* opening lid */
+        .lid {
+            width: 100%;
+            height: fit-content;
+        }
+
+        /* power-in-the-air */
+
+
+        .power-in-the-air {
+            background-color: black;
+            margin-top: -10px;
+        }
+
+        .hero-chandan-sharma {
+            color: rgb(255, 255, 255);
+            text-align: center;
+
+        }
+
+        .hero-pregination {
+            color: #C0C0C0;
+            text-align: center;
+            font-size: 100px;
+            padding-top: 23px;
+        }
+
+        .hero-id {
+            color: #C0C0C0;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 17px;
+        }
+
+        .power-in-the-air .hero-pregination {
+            animation: fade-in-hero 1.5s ease-out 0.7s 1 forwards;
+        }
+
+        .super-charged {
+            margin-left: 30%;
+            padding-top: 80px;
+            width: auto;
+            height: 197px;
+        }
+
+        .super {
+            text-align: center;
+            color: #C0C0C0;
+            padding-bottom: 100px;
+            margin-top: -75px;
+            font-size: 23px;
+            margin-left: 90px;
+            font-weight: bold;
+        }
+
+        .from {
+            text-align: center;
+            color: white;
+            margin-left: -29%;
+            font-size: 25px;
+            margin-top: -23px;
+
+        }
+
+        .event {
+            text-align: center;
+            color: white;
+            margin-left: 15%;
+            margin-top: -29px;
+            font-size: 25px;
+
+        }
+
+        /*   SMALL CHIP GIANT LEAP */
+
+
+        .m1 {
+            background: black;
+        }
+
+        .eye-brow {
+            margin-left: 20%;
+            margin-top: 15%;
+
+        }
+
+        .m1-chip h1 {
+            margin-left: 20%;
+            color: #fff;
+            font-size: 70px;
+            font-weight: 4000;
+            padding-top: 12px;
+        }
+
+        .m1-chip p {
+            color: #C0C0C0;
+            margin-left: 20%;
+            font-size: 24px;
+            padding-top: 20px;
+        }
+
+        .apple-silicon {
+            width: 100%;
+            height: 100%;
+
+        }
+
+
+
+        /* 8 core gpu    */
+        .core {
+            background: black;
+            margin-top: -10px;
+        }
+
+        .gpu-container {
+            background: rgb(31, 14, 70);
+            margin-left: 32px;
+            border-radius: 22px;
+            margin-right: 32px;
+        }
+
+        .row-id {
+            display: flex;
+        }
+
+        .processor {
+            padding-top: 100px;
+        }
+
+        .col-id h4 {
+            color: white;
+            margin-left: 35px;
+            padding-top: 30px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col-id .class {
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        .col-id .classes {
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        .col-id .classes-core {
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+
+        }
+
+        .col-id .paragraph {
+            color: white;
+            font-size: 20px;
+            padding-top: 20px;
+        }
+
+        .container {
+            margin-left: 30px;
+            padding-top: 100px;
+        }
+
+
+        /* animation games page */
+
+
+        .image-container {
+            background-color: #000000;
+            padding-top: 12px;
+        }
+
+        .image-2 {
+            background-image: url("graphics_bg_endframe__pj20hcxs4ga6_large.jpg");
+            width: 95.67%;
+            margin-left: 28px;
+            border-radius: 23px;
+            margin-top: 35px;
+            height: 620px;
+
+        }
+
+        .row-span {
+            display: flex;
+        }
+
+        .core-7 {
+            font-weight: bold;
+            color: #4693AD;
+            font-size: 80px;
+            padding-top: 180px;
+            margin-left: 25px;
+        }
+
+        .plays {
+            font-weight: bold;
+            color: #ffffff;
+            font-size: 80px;
+            padding-top: 10px;
+            margin-left: 25px;
+
+        }
+
+        .works {
+            font-weight: bold;
+            color: #ffffff;
+            font-size: 80px;
+            padding-top: 10px;
+            margin-left: 25px;
+        }
+
+        .gpu {
+            color: #fff;
+            padding-left: 25px;
+            margin-top: 50px;
+            font-size: 25px;
+        }
+
+        .cpu {
+            color: #fff;
+            margin-top: 67%;
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 50px;
+        }
+
+
+        /*---- all day battery life   */
+
+
+
+
+        .row-span-span-span {
+            display: flex;
+        }
+
+        .all-day {
+            background-color: #000000;
+        }
+
+        .div-1 {
+            background-color: rgb(17, 77, 47);
+            width: 800px;
+            margin-left: 35px;
+            border-radius: 20px;
+            margin-top: 25px;
+            height: 700px;
+        }
+
+        .div-id {
+            background-color: rgb(41, 151, 255);
+            width: 450px;
+            margin-left: 29px;
+            border-radius: 20px;
+            margin-top: 25px;
+            height: 700px;
+
+        }
+
+        .hours-battery-life {
+            color: rgb(46, 255, 4);
+            text-align: center;
+            font-size: 60px;
+            font-weight: 900;
+
+            font-size: 5rem;
+            padding-top: 100px;
+            margin-left: 34px;
+        }
+
+        .all-day-all {
+            color: #fff;
+            padding-left: 92px;
+            padding-top: 35px;
+            font-size: 19px;
+        }
+
+        .eff {
+            color: #fff;
+            padding-left: 34px;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+
+        .no-fan {
+            color: rgba(241, 237, 237, 0.774);
+            font-size: 90px;
+            padding-top: 80px;
+            margin-left: 10%;
+
+        }
+
+        .no-noise {
+            color: rgba(241, 237, 237, 0.774);
+            font-size: 90px;
+            font-weight: bold;
+            margin-left: 10%;
+
+        }
+
+        .just-air {
+            color: #fff;
+            font-size: 90px;
+            margin-left: 10%;
+        }
+
+        .button-id {
+            background: transparent;
+            border-radius: 22px;
+            border-color: #fff;
+            border-bottom-color: #fff;
+            border-right-color: #fff;
+            color: #fff;
+            font-weight: bold;
+            padding: 12px;
+            margin-top: 150px;
+            margin-left: 44px;
+        }
+
+
+        /*  machine learning  */
+
+        .machine-learning {
+            background-color: #000000;
+            padding-top: 12px;
+        }
+
+        .learning h1 {
+            color: #fff;
+            padding-top: 100px;
+            margin-left: 140px;
+        }
+
+        .learning {
+            background-color: #000000;
+
+        }
+
+        .mac-1 {
+            padding-top: 30px;
+            margin-left: 30px;
+        }
+
+        .a-16 {
+            color: rgba(241, 237, 237, 0.774);
+        }
+
+        .hello-chandan {
+            padding-top: 130px;
+            font-weight: bold;
+            font-size: 26px;
+        }
+
+        .col-pregination p {
+            color: #fff;
+        }
+
+        .row-pregination {
+            display: flex;
+
+        }
+
+
+
+        /* mac oss */
+
+        .mac-mac {
+            background-color: black;
+            padding-top: 23px;
+        }
+
+        .macos {
+            background-image: radial-gradient(at 100% 0%, rgba(46, 110, 173, 0.99) 0px, transparent 50%),
+                radial-gradient(at 92% 64%, rgba(11, 30, 80, 0.69) 0px, transparent 50%),
+                radial-gradient(at 35% 0%, #0c215a 0px, transparent 50%),
+                radial-gradient(at 0% 0%, #06061d 0px, transparent 50%),
+                radial-gradient(at 76% 0%, #061232 0px, transparent 50%), radial-gradient(at 86% 47%, #0b0f32 0px, transparent 50%),
+                radial-gradient(at 43% 59%, #0b0f32 0px, transparent 50%),
+                radial-gradient(at 6% 100%, #311f47 0px, transparent 50%),
+                radial-gradient(at 42% 100%, #06061d 0px, transparent 50%), radial-gradient(at 1% 53%, #0b0f32 0px, transparent 50%),
+                radial-gradient(at 100% 100%, #0c133b 0px, transparent 50%),
+                radial-gradient(at 63% 100%, #1e1335 0px, transparent 50%), radial-gradient(at 20% 100%, #1e1335 0px,
+                    transparent 50%);
+            border-radius: 20px;
+            margin-left: 28px;
+            margin-right: 28px;
+        }
+
+        .macos .os {
+            color: #fff;
+            margin-left: 50px;
+            font-size: 18px;
+            padding-top: 18px;
+        }
+
+        .the-power-of {
+            color: #fff;
+            font-weight: bold;
+            font-size: 35px;
+            margin-left: 50px;
+            padding-top: 120px;
+        }
+
+        .unlocks {
+            color: #fff;
+            font-size: 18px;
+            padding-top: 40px;
+            margin-left: 50px;
+        }
+
+        .png {
+            margin-left: 130px;
+        }
+
+
+        .preginatin-contact-by-row {
+            display: flex;
+        }
+
+
+
+
+
+
+
+        /*    speed and responsivnesss */
+
+        .speed-more {
+            background-color: #000000;
+        }
+
+
+        .row-2 {
+            display: flex;
+        }
+
+        .section {
+            background-image: radial-gradient(at 82% 30%, rgba(20, 20, 57, 0.46) 0px,
+                    transparent 50%),
+                radial-gradient(at 100% 66%, #29183f 0px, transparent 50%),
+                radial-gradient(at 100% 0%, #161339 0px, transparent 50%),
+                radial-gradient(at 35% 0%, #21163b 0px, transparent 50%),
+                radial-gradient(at 47% 59%, rgba(65, 40, 77, 0.76) 0px, transparent 50%),
+                radial-gradient(at 1% 2%, #3b244c 0px, transparent 50%),
+                radial-gradient(at 75% 1%, #1a1439 0px, transparent 50%),
+                radial-gradient(at 100% 0%, #191439 0px, transparent 50%),
+                radial-gradient(at 0% 99%, #694e6e 0px, transparent 50%),
+                radial-gradient(at 0% 64%, rgba(103, 80, 109, 0.57) 0px, transparent 50%),
+                radial-gradient(at 0% 24%, #694e6e 0px, transparent 50%),
+                radial-gradient(at 100% 100%, #553c5d 0px, transparent 50%),
+                radial-gradient(at 72% 100%, #1e1335 0px, transparent 50%),
+                radial-gradient(at 35% 100%, #1e1335 0px, transparent 50%);
+            border-radius: 14px;
+            border-radius: 14px;
+            margin-left: 34px;
+            margin-top: 35px;
+            width: 600px;
+            height: 660px;
+        }
+
+        .apps-apps-apps {
+            color: #fff;
+            margin-left: 45px;
+            padding-top: 20px;
+        }
+
+        .apps-apps {
+            margin-left: 85px;
+            padding-top: 40px;
+        }
+
+        .creative {
+            color: #fff;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+
+        .a-massive {
+            background-image: radial-gradient(at 82% 30%, rgba(20, 20, 57, 0.46) 0px,
+                    transparent 50%),
+                radial-gradient(at 100% 66%, #29183f 0px, transparent 50%),
+                radial-gradient(at 100% 0%, #161339 0px, transparent 50%),
+                radial-gradient(at 35% 0%, #21163b 0px, transparent 50%),
+                radial-gradient(at 47% 59%, rgba(65, 40, 77, 0.76) 0px, transparent 50%),
+                radial-gradient(at 1% 2%, #3b244c 0px, transparent 50%),
+                radial-gradient(at 75% 1%, #1a1439 0px, transparent 50%),
+                radial-gradient(at 100% 0%, #191439 0px, transparent 50%),
+                radial-gradient(at 0% 99%, #694e6e 0px, transparent 50%),
+                radial-gradient(at 0% 64%, rgba(103, 80, 109, 0.57) 0px, transparent 50%),
+                radial-gradient(at 0% 24%, #694e6e 0px, transparent 50%),
+                radial-gradient(at 100% 100%, #553c5d 0px, transparent 50%),
+                radial-gradient(at 72% 100%, #1e1335 0px, transparent 50%),
+                radial-gradient(at 35% 100%, #1e1335 0px, transparent 50%);
+            border-radius: 14px;
+            margin-left: 27px;
+            margin-top: 35px;
+            width: 660px;
+            height: 660px;
+
+        }
+
+        .constat {
+            color: #fff;
+            padding-top: 23px;
+            margin-left: 45px;
+
+        }
+
+        .parag-container {
+            color: #fff;
+            margin-left: 45px;
+            padding-top: 20px;
+        }
+
+        .more {
+            color: #fff;
+            text-align: center;
+            padding-top: 35px;
+            font-size: 75px;
+        }
+
+
+
+
+        /*-------------------  unifield memory------------------------------------------*/
+
+
+
+
+
+
+        .memory-id {
+            background-color: #000000;
+
+        }
+
+        .row-chandan {
+            display: flex;
+
+        }
+
+        .memory-bg {
+            border-radius: 15px;
+            width: 100%;
+            height: 578px;
+            margin-left: 34px;
+        }
+
+        .hello-chandan-chandan {
+            width: 140%;
+            height: 700px;
+        }
+
+        .hello-pregination {
+            margin-top: -572px;
+            margin-left: 70px;
+            color: #fff;
+            font-size: 25px;
+            word-spacing: 2px;
+            font-weight: bold;
+
+        }
+
+        .Unified-memory {
+            color: #fff;
+            font-size: 17px;
+
+        }
+
+        .memory_icon {
+            padding-top: 23px;
+        }
+
+        .the-do {
+            margin-top: 22px;
+        }
+
+        .deep {
+            margin-top: 23px;
+        }
+
+        .col-chandan {
+            padding-top: 32px;
+        }
+
+        .hello-deep {
+            background: linear-gradient(to right top, #604C7C 0%, #257983 50%, #20825A 100%);
+            margin-left: 199px;
+            border-radius: 12px;
+            width: 400px;
+            padding-top: 24px;
+            height: 578px;
+            color: #fff;
+        }
+
+        .ssd {
+            margin-left: 60px;
+
+
+        }
+
+        .upto {
+            text-align: center;
+            padding-top: 30%;
+            font-size: 23px;
+        }
+
+        .two {
+            text-align: center;
+            font-size: 90px;
+            margin-right: 100px;
+        }
+
+        .tb-tb {
+            text-align: center;
+            padding-top: 40px;
+
+
+        }
+
+        .tb {
+            margin-top: -115px;
+            padding-left: 12px;
+            font-size: 56px;
+            font-weight: bold;
+        }
+
+        .bring {
+            text-align: center;
+            font-weight: bold;
+            padding-top: 60px;
+            word-spacing: 3px;
+            font-size: 19px;
+        }
+
+        .ssd-storage {
+            text-align: center;
+            font-size: 20px;
+            margin-top: -47px;
+            margin-right: 37px;
+        }
+
+
+        .apple-chandan-sharma-created-by-chandan-sharma {
+            background-color: rgba(0, 0, 0, 0.57);
+            width: 80%;
+            margin-left: 60px;
+            border-radius: 12px;
+            height: 578px;
+
+        }
+
+        .apple-apple {
+            width: 20%;
+            margin-left: 50%;
+            width: 45%;
+            margin-left: 30%;
+            padding-top: 20%;
+            transition: 0.4s all;
+        }
+
+        .apple-apple:hover {
+            transform: scale(1.1);
+            color: rgb(121, 115, 115);
+        }
+
+        .security {
+            color: #fff;
+            margin-left: 65px;
+            padding-top: 20px;
+
+
+        }
+
+        .secret {
+            color: rgb(121, 115, 115);
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .secret-id-id {
+            background: transparent;
+            color: #fff;
+            border-radius: 15px;
+            border-color: #fff;
+            padding: 10px;
+            margin-left: 15%;
+            margin-top: 40px;
+            transition: 0.4s all;
+        }
+
+        .secret-id-id:hover {
+            transform: scale(1.1);
+            color: rgb(121, 115, 115);
+        }
+
+
+
+
+
+
+
+
+
+
+
+        /*          retina display ceated by chandan sharma    
+
+
+
+
+
+*/
+
+        .retina-display-lifelike-colors {
+            background: #000000;
+            height: 1450px;
+        }
+
+        .display-deep {
+            color: rgb(121, 115, 115);
+            margin-left: 20%;
+            padding-top: 8%;
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .colors {
+            color: #fff;
+            margin-left: 20%;
+            font-size: 80px;
+
+        }
+
+        .images-taken-on {
+            color: #fff;
+            margin-left: 20%;
+            font-weight: bold;
+            font-size: 25px;
+            word-spacing: 4px;
+            padding-top: 20px;
+        }
+
+        .headphone {
+            margin-left: 6%;
+            padding-top: 7%;
+        }
+
+        .retina-hero-headphone {
+            margin-left: 16%;
+            margin-top: -650px;
+        }
+
+
+
+
+
+
+
+        /*--------------------------P3 wide color gamut-----------------------------------------
+A wider palette of colors on display.--*/
+
+
+
+
+        .p3 {
+            text-align: center;
+            color: #fff;
+        }
+
+        .the-name-is-chandan-sharma {
+            background-image: url("color_bg__gluvmsph8ymy_large.jpg");
+            height: 618px;
+            width: auto;
+            background-repeat: no-repeat;
+            margin-left: 26px;
+            margin-right: 26px;
+            border-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+
+        .A-wide-palette-o-colors-on-display {
+            background: #000000;
+        }
+
+        .gamut {
+            padding-top: 33px;
+            margin-right: 80%;
+            font-size: 22px;
+
+        }
+
+        .wider {
+            font-size: 80px;
+            margin-right: 65%;
+            padding-top: 100px;
+            margin-left: 50px;
+
+        }
+
+        .more-colors {
+            margin-top: -18%;
+            margin-left: 50%;
+            font-size: 90px;
+        }
+
+        .than {
+            margin-left: 50%;
+            font-size: 22px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*-------------------------------------
+    
+    
+    pixel density--*/
+
+
+
+
+        .pixel-density {
+            background: #000000;
+        }
+
+
+        .row-deepika {
+            display: flex;
+
+        }
+
+        .col-deepika {
+            padding-top: 33px;
+        }
+
+        .deep-id-pregination {
+            background: #181725;
+            width: 662px;
+            margin-left: 23px;
+            border-radius: 15px;
+            height: 658px;
+        }
+
+        .true-tone {
+            background: linear-gradient(to top, #a79c08 10%, #1f1f01 50%, #000000 100%);
+            margin-left: 44px;
+            border-radius: 23px;
+            height: 658px;
+            width: 595px;
+        }
+
+        .density-id {
+            color: #fff;
+            margin-left: 43px;
+            padding-top: 34px;
+            font-size: 19px;
+        }
+
+        .razor {
+            color: #fff;
+            font-size: 80px;
+            text-align: center;
+            padding-top: 20%;
+            filter: blur(3px);
+            -webkit-filter: blur(3px);
+
+        }
+
+        .clarity {
+            font-size: 80px;
+            text-align: center;
+            padding-top: 5%;
+            color: #fff;
+        }
+
+        .technology {
+            color: #fff;
+            font-size: 19px;
+            padding-top: 6%;
+            padding-left: 33px;
+
+        }
+
+        .good {
+            color: rgba(167, 164, 164, 0.57);
+            margin-left: 33px;
+            padding-top: 34px;
+        }
+
+        .true-tone-tone {
+            width: 40%;
+            margin-left: 30%;
+            margin-top: 76px;
+        }
+
+        .temperature {
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+            margin-left: 33px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*    meaning         */
+
+
+        .camera-and-mics {
+            background: #000000;
+            height: 1400px;
+        }
+
+        .overview-camera-hero-hardware-img {
+            width: 100%;
+        }
+
+        .image-clarity {
+            padding-top: 45px;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+
+
+        .overview-camera-hero-screen-img {
+            margin-top: 665px;
+            width: 95%;
+            margin-left: 26px;
+
+        }
+
+        .class-9 {
+            margin-top: -120%;
+        }
+
+        .camera {
+            color: rgba(243, 238, 238, 0.57);
+            margin-left: 18%;
+            font-size: 70px;
+            padding-top: 15%;
+        }
+
+        .on-the {
+            color: #fff;
+            margin-left: 18%;
+            font-size: 70px;
+            font-stretch: 125%;
+        }
+
+        .the-image-signal {
+            color: #fff;
+            font-weight: bold;
+            margin-left: 18%;
+            font-size: 25px;
+            margin-top: 34px;
+        }
+
+
+
+
+
+        /*           --------------------------------------------------------------
+
+FaceTime HD camera-------------------------*/
+
+        .hd-camera {
+            background: #000000;
+        }
+
+        .view-more-id {
+            margin-top: -25%;
+        }
+
+
+        .view-more-id-pregination {
+            display: flex;
+        }
+
+        .ant-man {
+            background: #131212;
+            border-radius: 18px;
+            margin-left: 40px;
+            height: 800px;
+        }
+
+        .hello-class {
+            width: 80%;
+            margin-left: 50px;
+        }
+
+        .microphones-array {
+            background: #161515;
+            border-radius: 18px;
+            margin-left: 80px;
+            height: 800px;
+            width: 98%;
+            margin-left: 34px;
+        }
+
+        .FaceTime-HD-camera {
+            color: #fff;
+            margin-left: 74px;
+            padding-top: 46px;
+        }
+
+        .get-clear-sharp-images {
+            color: #fff;
+            font-weight: bold;
+            font-size: 30px;
+            margin-left: 65px;
+            margin-top: 75px;
+        }
+
+        .array {
+            color: #fff;
+            font-size: 17px;
+            padding-top: 46px;
+            margin-left: 74px;
+        }
+
+        .view-more-chandan-sharma {
+            margin-top: 3%;
+            margin-left: 12px;
+        }
+
+        .say-hello {
+            color: #fff;
+            font-size: 60px;
+            font-weight: bolder;
+            margin-left: 70px;
+            padding-top: 23px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        /*-----------------------------------------------------
+    
+    
+    Magic Keyboard--   */
+
+
+
+        .Magic-Keyboard-k {
+            background-color: #000000;
+        }
+
+        .magic {
+            color: #a79f9f;
+            font-size: 7em;
+            font-weight: bold;
+            margin-left: 23%;
+            padding-top: 15%;
+            transform: translate(-10%, -20%) scale(1, 1.3);
+        }
+
+        .when-a {
+            color: #a79f9f;
+            font-weight: bold;
+            margin-left: 15%;
+            font-size: 25px;
+            padding-top: 23px;
+        }
+
+        .the-days {
+            margin-top: 5%;
+        }
+
+        .key {
+            margin-left: 75px;
+
+        }
+
+        .ahead {
+            color: #fffdfd;
+            font-size: 80px;
+            margin-left: 15%;
+            font-weight: bold;
+        }
+
+
+
+
+
+
+
+
+
+        /*----------------------------------------------
+
+
+Scissor mechanism                 --*/
+
+        .Scissor-mechanism {
+            background: #000000;
+            margin-top: -8%;
+        }
+
+        .pich {
+            display: flex;
+        }
+
+        .trackpad-bg {
+            border-radius: 18px;
+            margin-left: 3%;
+            width: 93%;
+        }
+
+        .mechanism {
+            color: #fff;
+            padding-left: 34px;
+            padding-top: 30px;
+        }
+
+        .the-refined-scissors {
+            color: #fff;
+            padding-left: 34px;
+            padding-top: 35px;
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .sailoja {
+            margin-left: 28%;
+            padding-top: 30%;
+        }
+
+        .zoom-zoom {
+            background: linear-gradient(215deg, #c52d47 0%, #a5325c 30%, #8b366d 100%);
+            height: 640px;
+            width: 650px;
+            border-radius: 18px;
+            margin-left: 30px;
+        }
+
+        .delip {
+            margin-top: -90%;
+            color: #fff;
+            margin-left: 10%;
+        }
+
+        .control-with {
+            margin-top: 50px;
+            font-size: 55px;
+        }
+
+
+
+
+
+
+
+
+        /*-------------------------------------------------------------
+
+
+
+Touch ID-- */
+
+        .touch-id {
+            background: #000000;
+            padding-top: 10px;
+        }
+
+        .one-touch {
+            background: linear-gradient(229deg, #517281 0%, #3b5d70 27%, #4d5c82 72%, #5d647f 100%);
+            width: 95%;
+            margin-left: 33px;
+            border-radius: 12px;
+            margin-top: 45px;
+            height: 600px;
+        }
+
+        .touch {
+            color: #fff;
+            margin-left: 70px;
+            padding-top: 49px;
+        }
+
+        .all-it-takes {
+            color: #fff;
+            margin-left: 59px;
+            padding-top: 98px;
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+        .col-hanuman-hanuman {
+            width: 140%;
+        }
+
+        .row-hanuman {
+            display: flex;
+        }
+
+        .col-hanuman {
+            margin-left: 400px;
+        }
+
+        .image-hanuman-id {
+            margin-left: -270px;
+            margin-top: 170px;
+        }
+
+        .unlock-your-mac {
+            color: #fff;
+            margin-left: -271px;
+        }
+
+        .use-pay {
+            margin-top: -119px;
+            margin-left: 50px;
+        }
+
+        .use-apple-pay {
+            color: #fff;
+            font-size: 18px;
+            margin-left: 50px;
+            padding-top: 12px;
+        }
+
+        .video-plaback {
+            margin-left: -270px;
+            padding-top: 40%;
+        }
+
+        .open-pass {
+            color: #fff;
+            margin-left: -272px;
+            font-size: 19px;
+            padding-top: 12px;
+        }
+
+        .make-purchase {
+            margin-top: -130px;
+            margin-left: 45px;
+
+        }
+
+        .apple-tv-tv {
+            color: #fff;
+            font-size: 19px;
+            margin-left: 40px;
+            padding-top: 12px;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        /*------------------------------------------------
+
+
+
+Connectivity                  --*/
+
+
+
+
+        .connectivity {
+            background: #000000;
+        }
+
+        .connection {
+            color: #afaaaa;
+            font-size: 80px;
+            padding-top: 170px;
+            margin-left: 178px;
+            font-weight: bold;
+        }
+
+        .charges {
+            color: #fff;
+            font-size: 80px;
+            text-align: center;
+            margin-left: -140px;
+        }
+
+        .works-hanuman {
+            color: #fff;
+            font-size: 80px;
+            font-weight: bold;
+            margin-left: 180px;
+        }
+
+        .with-others-others {
+            color: #fff;
+            font-weight: bold;
+            font-size: 80px;
+            margin-left: 180px;
+        }
+
+        .with-others {
+            width: 100%;
+
+        }
+
+        .hii-deelip {
+            width: 100%;
+            margin-top: 108px;
+        }
+
+
+
+
+
+
+
+        /*-------------------------------------------------------------------------
+
+
+
+
+Wi-Fi 6-------------------------------*/
+
+        .wifi-id-id-gaima {
+            background: #000000;
+        }
+
+
+        .the-row {
+            display: flex;
+        }
+
+        .row-mt-everest {
+            display: flex;
+        }
+
+        .garima {
+            background: linear-gradient(229deg, #9b0e94 0%, #4b1b47 27%, #332133 72%, #5d647f 100%);
+            width: 650px;
+            margin-left: 24px;
+            border-radius: 23px;
+            height: 720px;
+            margin-top: -14.60%;
+        }
+
+        .k-id {
+            background: linear-gradient(229deg, #e909cb 0%, #c308fc 27%, #4d5c82 72%, #2c034d 100%);
+            width: 630px;
+            border-radius: 18px;
+            margin-left: 12px;
+            height: 720px;
+            margin-top: -30%;
+        }
+
+        .wifi-6 {
+            color: #fff;
+            font-weight: bold;
+            margin-left: 50px;
+            padding-top: 40px;
+
+        }
+
+        .the-next-generation {
+            color: #fff;
+            font-weight: bold;
+            margin-left: 50px;
+            margin-top: 35px;
+            font-size: 18px;
+        }
+
+        .up-to {
+            margin-left: 195px;
+            margin-top: 148px;
+        }
+
+        .throughout {
+            color: #fff;
+            text-align: center;
+            margin-left: 40px;
+            font-size: 60px;
+            font-weight: bold;
+            margin-top: 11px;
+        }
+
+        .dees {
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        .thunderbolt {
+            color: #fff;
+            font-weight: bold;
+            margin-left: 56px;
+            padding-top: 40px;
+        }
+
+        .ultra-high-bandwidth {
+            color: #fff;
+            font-weight: bold;
+            margin-left: 56px;
+            padding-top: 30px;
+            font-size: 19px;
+            word-spacing: 4px;
+        }
+
+        .external-display-id-1 {
+            color: #fff;
+        }
+
+        .your-devices {
+            color: #fff;
+        }
+
+        .kathmandu {
+            margin-left: 200px;
+            margin-top: 80px;
+        }
+
+        .pokhara-1 {
+            margin-top: 115px;
+        }
+
+        .connect-your-devices {
+            margin-top: 115px;
+        }
+
+        .sharma {
+            margin-left: 120px;
+            margin-top: 60px;
+        }
+
+        .charging-text {
+            color: #fff;
+            padding-top: 12px;
+        }
+
+        .data-transfer {
+            color: #fff;
+
+        }
+
+        .thunderbolt-hello {
+            padding-top: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*----------------------------------------------------------------------------------------
+
+
+
+
+Use AR to see MacBook Air in your workspace.
+
+
+
+
+
+
+--*/
+
+        .use-ar-to-see {
+            background: #000000;
+        }
+
+        .chandan-rider {
+            padding-top: 50px;
+            margin-left: 30px;
+            margin-right: 30px;
+
+        }
+
+
+        .workspace {
+            background: #1c1c1d;
+            border-radius: 12px;
+        }
+
+        .n-row {
+            display: flex;
+        }
+
+        .ipad {
+            margin-left: 50%;
+            margin-top: 90px;
+        }
+
+        .universe {
+            margin-left: 200px;
+            margin-top: 120px;
+        }
+
+        .macbook-air-m1 {
+            color: #fff;
+            font-weight: bold;
+            font-size: 50px;
+            margin-left: 190px;
+            margin-top: 40px;
+        }
+
+        .ipad-ipad {
+            color: #fff;
+            margin-left: 189px;
+            padding-top: 23px;
+        }
+
+        .circle {
+            background: #464444;
+            width: 5%;
+            height: 25px;
+            border-radius: 50%;
+            margin-left: 190px;
+            margin-top: 12px;
+            border-color: #0c215a;
+        }
+
+        .circle-1 {
+            background: #ffffff;
+            width: 5%;
+            height: 25px;
+            border-radius: 50%;
+            margin-left: 231px;
+            margin-top: -26px;
+            border-color: #0c215a;
+        }
+
+        .circle-2 {
+            background: #feffda;
+            width: 5%;
+            height: 25px;
+            border-radius: 50%;
+            margin-left: 276px;
+            margin-top: -25px;
+            border-color: #0c215a;
+        }
+
+
+
+
+
+
+
+
+        /*----------------------------------------
+
+
+
+
+Which laptop is right for you?        -*/
+
+        .laptop {
+            background: #000000;
+            padding-top: 20%;
+        }
+
+        .urvasi-r {
+            margin-top: 34px;
+        }
+
+        .urvasi {
+            color: #fff;
+            font-size: 60px;
+            text-align: center;
+            padding-top: 34px;
+            font-weight: bold;
+
+        }
+
+        .urvasi-2 {
+            color: #1d0eee;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 23px;
+        }
+
+        .urvasi-2:hover {
+            text-decoration: underline;
+        }
+
+        .modeals {
+            background: #1c1c1d;
+            border-radius: 23px;
+            margin-top: -222px;
+            margin-left: 23px;
+            margin-right: 23px;
+
+        }
+
+        .row-mc {
+            display: flex;
+
+        }
+
+        .month {
+            padding-top: 38px;
+            font-size: 14px;
+        }
+
+        .disply-pregination {
+            padding-top: 12px;
+            font-size: 14px;
+        }
+
+        .apple-mac-pregination {
+            padding-top: 12px;
+            font-size: 14px;
+        }
+
+        .hours-battery-life-pregination {
+            padding-top: 12px;
+            font-size: 14px;
+        }
+
+        .deepika-dhakal {
+            padding-top: 12px;
+            font-size: 14px;
+        }
+
+        .battery-life-pregination {
+            padding-top: 12px;
+            font-size: 14px;
+        }
+
+        .touch-id-pregination {
+            padding-top: 12px;
+            font-size: 14px;
+        }
+
+        .button-pregination-id {
+            margin-top: 12px;
+            padding-top: -4px;
+            color: #fff;
+            background: #0c215a;
+            border: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            border-radius: 12px;
+        }
+
+        .learn-more-pregination {
+            padding-top: 12px;
+            text-decoration: none;
+            color: rgb(41, 151, 255);
+        }
+
+        .learn-more-pregination:hover {
+            text-decoration: underline;
+        }
+
+        .col-mc-mc {
+            padding-left: 111px;
+        }
+
+        .from-81 {
+            padding-top: 54px;
+            color: #fff;
+        }
+
+
+
+
+
+
+        /*                         
+
+
+
+
+mac os venture   
+
+
+
+
+
+
+
+
+*/
+
+
+
+        .macos-venture {
+            background: #000000;
+            height: 650px;
+        }
+
+        .practical {
+            margin-left: 20px;
+            margin-right: 45px;
+            margin-top: 45px;
+            border-radius: 18px;
+            width: 97%;
+        }
+
+        .eagle-form {
+            color: #fff;
+            text-align: center;
+            margin-top: -384px;
+
+        }
+
+        .plays-harder {
+            font-size: 40px;
+            font-stretch: extra-expanded;
+        }
+
+        .git-hub {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .git-hub:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+
+
+        /*     
+
+
+
+
+
+explore mac os accesories
+
+
+
+*/
+
+
+
+
+        .row-classification {
+            display: flex;
+        }
+
+        .router-1 {
+            width: 100%;
+            border-bottom-right-radius: 3px;
+            padding-top: 115px;
+        }
+
+        .text-accesories {
+            text-align: center;
+            padding-top: 45px;
+        }
+
+        .seamless {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .access {
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        .sp {
+            background: #0c215a;
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            padding-left: 17px;
+            padding-right: 17px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+
+        }
+
+        .seamless-id-1 {
+            background: #201f1f;
+            color: #fff;
+            border-radius: 12px;
+            width: 100%;
+            margin-left: 17px;
+            height: 660px;
+        }
+
+        .coc-classification {
+            background: #201f1f;
+            color: #fff;
+            border-radius: 12px;
+            width: 90%;
+            margin-left: 44px;
+            height: 660px;
+        }
+
+        .continuity {
+            background: #000000;
+
+        }
+
+        .router-2 {
+            width: 100%;
+            padding-top: 45px;
+            height: 100%;
+
+        }
+
+        .shopify {
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 5px;
+        }
+
+        .like {
+            padding-top: 10px;
+            font-weight: bold;
+        }
+
+        .spotify-3 {
+            padding-top: 18px;
+            text-decoration: none;
+            color: rgba(46, 110, 173, 0.99);
+        }
+
+        .spotify-3:hover {
+            text-decoration: underline;
+
+        }
+
+
+
+
+
+        /*     
+
+
+
+
+
+appple at work
+
+
+
+*/
+
+
+        .apple-at-wort {
+            display: flex;
+        }
+
+        .education-plan {
+            width: 100%;
+            border-radius: 12px;
+            margin-left: 30px;
+            padding-top: 20px;
+        }
+
+        .educati-plan {
+            width: 100%;
+            border-radius: 12px;
+            margin-left: 35px;
+            padding-top: 20px;
+        }
+
+        .whottis-cee {
+            background: #000000;
+            height: 700px;
+        }
+    </style>
+    <div class="navbar">
+        <div class="nav">
+            <ul>
+                <div class="logo">
+                    <img src="apple.jpg" class="apple">
+                </div>
+                <li><a href="#">store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">Airpods</a></li>
+                <li><a href="#">TV & Home</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Support</a></li>
+                <i class="fa fa-search"></i>
+                <i class="fa fa-shopping-bag"></i>
+            </ul>
+
+        </div>
+        <div class="text">
+            <div class="row">
+                <div class="col">
+                    <h5>M1 chip Model</h5>
+                    <h2>MacBook Air</h2>
+                </div>
+                <div class="col">
+                    <ul>
+                        <h5 class="apple-inc">Overview</h5>
+                        <a href="#">
+                            <h4>tech Specs</h4>
+                        </a>
+                        <a href="#">
+                            <h4>Compare</h4>
+                        </a>
+                        <a href="https://rgbacolorpicker.com/">
+                            <h4>New to Mac</h4>
+                        </a>
+                        <a href="#" class="btnn"><button type="btn" class="btnn">Buy</a></button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-----get macbook air m1 with $1000   -->
+
+    <div class="mac">
+        <div class="text-mac">
+            <h3>Get MacBook Air with M1 starting at $899 in our Education Store.*</h3>
+        </div>
+    </div>
+
+    <!-------opening lid of macbook air   -->
+    <div class="opening-lid">
+        <img src="./images/eGiftGameOnline-Guide-to-Buying-Digital-Products.jpg" class="lid">
+    </div>
+
+    <!----macbook air m1 -->
+
+    <div class="power-in-the-air">
+        <h1 class="hero-chandan-sharma">macBook Air</h1>
+        <h1 class="hero-pregination">Power.It's in the air.</h1>
+        <p class="hero-id">
+            MacBook Air with M1 is an incredibly portable laptop —
+            it’s nimble <br>and quick, with a silent, fanless design and a
+            beautiful<br> Retina display. Thanks to its slim profile and all‑day
+            battery life,<br> this Air moves at the speed of lightness.
+        </p>
+        <img src="hero_icon__gkgkr96pgb2a_large.jpg" class="super-charged">
+        <p class="super">Supercharged by the Apple M1 chip</p>
+
+
+
+
+        <h3 class="from">From $999 | </h3>
+        <h3 class="event"> Watch this event > </h3>
+    </div>
+
+
+    <!--------             Small chip. Giant leap.                                ------>
+
+    <div class="m1">
+        <div class="m1-chip">
+            <img src=" m1_eyebrow__dp0aixbj1pg2_large.png" class="eye-brow">
+            <h1>Small chip. Giant leap.</h1>
+            <p>M1 is our first chip designed specifically for Mac.<br>
+                Apple silicon integrates the CPU, GPU, Neural Engine, I/O,<br> and
+                so much more onto a single tiny chip. Packed with an <br>astonishing 16
+                billion transistors, M1 delivers exceptional <br>
+                performance, custom technologies, and unbelievable power<br>
+                efficiency — a major breakthrough for Mac.</p>
+            <img src="apple_silicon_endframe__forvi6ykwn6m_large (1).jpg" class="apple-silicon">
+        </div>
+
+
+    </div>
+    </div>
+    <hr>
+
+
+
+    <!-------8 core cpu and 8 core gpu-->
+
+    <div class="core">
+        <div class="gpu-container">
+            <div class="row-id">
+                <div class="col-id">
+                    <h4>CPU</h4>
+                    <div class="container">
+                        <h2 class="class">8-core CPU</h2>
+                        <h2 class="classes">Devours tasks.</h2>
+                        <h2 class="classes-core">Sips battery.</h2>
+                        <p class="paragraph">The CPU on M1 isn’t just astonishingly
+                            fast — it balances high-performance cores with efficiency cores that
+                            crush everyday jobs while using far less energy. With that kind of
+                            processing power, MacBook Air can take on intensive tasks
+                            like professional-level video editing and action-packed gaming.</p>
+                    </div>
+                </div>
+                <div class="col-id">
+                    <img src="processor__gb8d1ide5126_large.png" class="processor">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <div class="image-2">
+            <div class="row-span">
+                <div class="col-span">
+                    <h1 class="gpu">GPU</h1>
+                    <h1 class="core-7">7-core GPU</h1>
+                    <h1 class="plays">Plays hard.</h1>
+                    <h1 class="works">Works wonders.</h1>
+                </div>
+                <div class="col-span">
+                    <p class="cpu">The GPU in M1 delivers lightning‑fast integrated graphics.<br>
+                        So you can create, edit, and seamlessly play back multiple<br>
+                        streams of
+                        full‑quality 4K video without dropping a frame.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- all day battery life   -->
+
+    <div class="all-day">
+        <div class="row-span-span-span">
+            <div class="col-span-span-span">
+                <div class="div-1">
+                    <h1 class="all-day-all">All-day battery life</h1>
+                    <h1 class="hours-battery-life">Up to 18 hours of <br>battery life. Go<br> long —
+                        free of <br>charge.1
+                    </h1>
+                </div>
+            </div>
+            <div class="col-span-span-span">
+                <div class="div-id">
+                    <h1 class="eff">Thermal efficiency</h1>
+                    <h1 class="no-fan"> No fan.</h1>
+                    <h1 class="no-noise">No noise.</h1>
+                    <h1 class="just-air">Just Air.</h1>
+                    <a href="#"><button type="btn" class="button-id">Get the M1 thermal expansion</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------machine learning     -->
+
+
+
+
+    <div class="machine-learning">
+
+        <div class="learning">
+            <h1>machine learning</h1>
+            <div class="row-pregination">
+                <div class="col-pregination">
+                    <img src="machine_learning__d8u6dxf5xawm_large.png" class="mac-1">
+
+
+                </div>
+                <div class="col-pregination">
+                    <div class="hello-chandan">
+                        <p class="a-16">A 16-core Neural Engine capable of 11<br>
+                            trillion operations per second. Process that. <br></p>
+                        <p> Apps on MacBook Air can usemachine learning (ML) to automatically<br> retouch photos like
+                            a pro, make smart<br> tools such as magic wands and audio<br> filters
+                            more accurate at auto‑detection,<br> and so much more. That’s not just<br> brainpower —
+                            that’s the power of a full stack of ML technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------macos------>
+
+    <div class="mac-mac">
+        <div class="macos">
+            <h1 class="os">macOS</h1>
+            <div class="chandan-sharma">
+                <div class="preginatin-contact-by-row">
+                    <div class="pregination-by-col">
+                        <h1 class="the-power-of">The power of <br>macOS on M1.</h1>
+                        <h1 class="unlocks">macOS unlocks the potential
+                            of the M1 chip and <br>transforms Mac with all-new ways to work
+                            and play.<br> Connect, share, and create like never before using <br>FaceTime
+                            and Messages. Explore the web on the <br>streamlined Safari, the fastest browser
+                            in the world.2<br> And work across Mac and your other Apple
+                            devices<br> with Universal Control. macOS also includes industry-<br>leading
+                            privacy features and best‑in‑class security.</h1>
+
+                    </div>
+                    <div class="pregination-by-col">
+                        <img src="macos__kp74urneu7u6_large.png" class="png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!------------------------------- speed and responsivnesss--------------------------------------------->
+
+
+    <div class="speed-more">
+        <div class="row-and-column">
+            <div class="row-2">
+                <div class="col-2">
+                    <div class="section">
+                        <h3 class="constat">Speed and responsiveness</h3>
+                        <h3 class="parag-container">The M1 chip and macOS work together to make the entire system<br>
+                            snappier.
+                            MacBook Air wakes instantly from sleep.
+                            Everyday tasks <br>from flipping through photos to browsing Safari are faster.
+                            And <br>your hardest-working apps all have access to the power<br> they need.
+                        </h3>
+                        <h1 class="more">More <br>power.<br>
+                            Wakes <br>instantly.</h1>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="a-massive">
+                        <h3 class="apps-apps-apps">A massive collection of apps</h3>
+                        <h3 class="creative">All your go-to apps run lightning fast in macOS — including<br> Microsoft
+                            365 and many of your favorite iOS apps. And with over<br> 15,000 apps
+                            and plug-ins optimized for Apple silicon, your<br> creative future is wide open.
+                        </h3>
+                        <img src="macos_apps__bxvx8h1jtfde_large.png" class="apps-apps">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------------------  unifield memory------------------------------------------>
+
+
+    <div class="memory-id">
+        <div class="storage-id">
+            <div class="row-chandan">
+                <div class="col-chandan">
+                    <div class="hello-chandan-chandan">
+                        <img src="memory_bg__crav6mda4kom_large.jpg" class="memory-bg">
+                        <div class="hello-pregination">
+                            <h1 class="Unified-memory">Unified memory</h1>
+                            <div class="memory_icon">
+                                <img src="memory_icon__eekqsyyftocy_large.png" class="deep">
+                            </div>
+                            <p class="the-do">The do‑it‑all notebook <br>gets do‑the‑unbelievable<br> memory.
+                                The M1 chip,<br> brings up to 16GB of <br>superfast unified memory. <br>This single pool
+                                of<br> high‑bandwidth, <br>low‑latency memory<br> allows
+                                apps to share data<br> between the CPU, GPU,<br> and Neural
+                                Engine<br> efficiently — so everything<br> you do is fast and fluid.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-chandan">
+                    <div class="hello-deep">
+                        <h3 class="ssd">SSD storage</h3>
+                        <h3 class="upto">Up to</h3>
+                        <h1 class="two">2</h1>
+                        <div class="tb-tb">
+                            <h1 class="tb">TB</h1>
+                        </div>
+                        <h1 class="ssd-storage">SSD storage3</h1>
+                        <p class="bring">Bring your photos, movies,<br> music, and documents with<br> you — and open
+                            them in
+                            <br>a flash.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-chandan">
+                    <div class="apple-chandan-sharma-created-by-chandan-sharma">
+                        <div class="deepika-dhakal">
+                            <h3 class="security">Security</h3>
+                            <img src="apple.jpg" class="apple-apple">
+                            <h1 class="secret">MacBook Air <br>can keep a<br> secret.</h1>
+                            <a href="#"><button type="btn" class="secret-id-id">See how M1 protects your
+                                    data</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------------------------------------------Retina display
+Lifelike colors
+for unreal beauty.------------------------------------------------------->
+
+
+
+
+    <div class="retina-display-lifelike-colors">
+        <div class="for-unreal-beauty">
+            <div class="gorgeous-view">
+                <h1 class="display-deep">Retina display</h1>
+                <h1 class="colors">Lifelike colors<br>
+                    for unreal beauty.</h1>
+                <p class="images-taken-on">Images take on new levels of detail and realism on
+                    the<br> brilliant 13.3‑inch, 2560‑by‑1600-resolution Retina display
+                    .<br> Text is sharp and clear. Colors are bright and vibrant. And the<br>
+                    glass goes right to the edge of the enclosure, so nothing <br>takes away
+                    from your gorgeous view.
+
+
+                </p>
+                <img src="retina_hero_hardware__9kvr0t8uir6u_large.jpg" class="headphone">
+                <div class="retina-hero-headphone">
+                    <img src="retina_hero_screen__33bifaqqnv6e_large.jpg" class="retina-her0">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--------------------------P3 wide color gamut-----------------------------------------
+A wider palette of colors on display.-->
+
+
+    <div class="A-wide-palette-o-colors-on-display">
+        <div class="the-name-is-chandan-sharma">
+            <div class="p3">
+                <div class="text">
+                    <h1 class="gamut">P3 wide color gamut</h1>
+                    <h1 class="wider">A wider palette<br> of colors<br> on display.</h1>
+                    <h2 class="more-colors">25%</h2>
+                    <h2 class="than">more colors than sRGB</h2>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-------------------------------------
+    
+    
+    pixel density-->
+
+
+
+
+    <div class="pixel-density">
+        <div class="sharp-text">
+            <div class="row-deepika">
+                <div class="col-deepika">
+                    <div class="deep-id-pregination">
+                        <h1 class="density-id">
+                            pixel density
+                        </h1>
+                        <h1 class="razor">razor-<br> sharp text<br>
+                        </h1>
+                        <h1 class="clarity">clarity.</h1>
+                    </div>
+                </div>
+                <div class="col-deepika">
+                    <div class="true-tone">
+                        <h1 class="technology">True Tone technology</h1>
+                        <h1 class="good">Good looking. And easy on the eyes.</h1>
+                        <p class="temperature">MacBook Air automatically adjusts the<br> color
+                            temperature of your display to<br> your environment
+                            for a more natural <br>viewing experience.
+
+                        </p>
+                        <img src="truetone_icon__ce9qb08gxhqq_large.png" class="true-tone-tone">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------------------------------------------------------------
+
+Camera and mics
+You’re live on the Air.-->
+
+    <div class="camera-and-mics">
+        <div class="the-Air">
+            <h1 class="camera">Camera and mics</h1>
+            <h1 class="on-the">You’re live on the Air.</h1>
+            <p class="the-image-signal">The image signal processor in the M1
+                chip helps you look<br> your best for every FaceTime call and video
+                conference.<br> Three built‑in microphones make sure what you say
+
+                heard whether you’re on a call,
+                dictating a note, or asking Siri<br> about the weather.</p>
+        </div>
+        <div class="image-clarity">
+            <img src="camera_hero_hardware__dri77prvl64i_medium.jpg" class="overview-camera-hero-hardware-img">
+            <div class="class-9">
+                <img src="camera_hero_screen__caeyynhk0daq_large.png" class="overview-camera-hero-screen-img">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------------------------------------------
+
+FaceTime HD camera-->
+
+
+    <div class="hd-camera">
+        <div class="instead">
+            <div class="view-more-id-pregination">
+                <div class="view-more-id">
+                    <div class="ant-man">
+                        <h4 class="FaceTime-HD-camera">FaceTime HD camera</h4>
+                        <p class="get-clear-sharp-images">Get clear, sharp images. See <br>amazing detail in shadows
+                            and<br>
+                            highlights. And face detection uses <br>the Neural Engine to improve tone<br>
+                            mapping and color accuracy for <br>natural‑looking skin tones.</p>
+                        <img src="facetime__bv310lpzvjci_large.png" class="hello-class">
+                    </div>
+                </div>
+                <div class="view-more-id">
+                    <div class="microphones-array">
+                        <h1 class="array">
+                            Three-microphone array
+                        </h1>
+                        <p class="say-hello">Say “Hello” to mics <br>that focus on your <br>voice
+                            instead of<br> what’s going on <br>around you.</p>
+                        <img src="microphones_endframe__fp52gfpi416y_large.jpg" class="view-more-chandan-sharma">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-----------------------------------------------------
+    
+    
+    Magic Keyboard-->
+
+
+    <div class="Magic-Keyboard-k">
+        <div class="Take-the-keys">
+            <div class="keys">
+                <h1 class="magic">Magic Keyboard</h1>
+                <h1 class="ahead">Go ahead. Take the keys.</h1>
+                <p class="when-a">When a keyboard types like a dream and still does a whole <br>lot more,
+                    that’s magic. With preprogrammed shortcuts, <br>useful features are easy to access.
+                    Get help from Siri, switch <br>keyboard languages, respond with the perfect emoji,
+                    find <br>documents with Spotlight — there’s so much you can do<br> with just a tap.
+                    And the backlit keys with ambient light <br>sensor help you type in low‑light settings.</p>
+            </div>
+            <div class="the-days">
+                <img src="magic_keyboard__pewz4toce72a_large.jpg" class="key">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!----------------------------------------------
+
+
+Scissor mechanism                 -->
+
+
+    <div class="Scissor-mechanism">
+        <div class="scissors">
+            <div class="pich">
+                <div class="zoom">
+                    <div class="zoom-zoom">
+                        <h3 class="mechanism">Scissor mechanism</h3>
+                        <p class="the-refined-scissors">The refined scissor mechanism delivers the best typing <br>
+                            experience ever on a Mac notebook.</p>
+                        <div class="apple-logo-created-by-chandan">
+                            <img src="scissor_mechanism__f050ctxondqy_large.png" class="sailoja">
+                        </div>
+                    </div>
+                </div>
+                <div class="zoom">
+                    <div class="zom">
+                        <div class="text-editior">
+                            <div class="plenty-of-zoom">
+                                <img src="trackpad_bg__dz9yyeczqoom_large.jpg" class="trackpad-bg">
+                            </div>
+                            <div class="delip">
+                                <h3 class="precise">Force Touch trackpad</h3>
+                                <h1 class="control-with">Precise<br> control with <br>plenty of room <br>to swipe,<br>
+                                    pinch,
+                                    or<br> zoom.</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-------------------------------------------------------------
+
+
+
+Touch ID-->
+
+
+    <div class="touch-id">
+        <div class="one-touch">
+            <div class="row-hanuman">
+                <div class="column-hanuman">
+                    <div class="col-hanuman-hanuman">
+                        <h3 class="touch">Touch ID</h3>
+                        <p class="all-it-takes">One touch is all it takes to unlock <br>MacBook Air.
+                            Use your fingerprint to <br>rent a movie, buy an app, or access <br>things
+                            like secure documents or<br> system settings without having to<br>
+                            reenter your password. And when you<br> shop online with Apple
+                            Pay, Touch ID<br> fills in your shipping
+                            and billing <br>information without sharing your<br> card details.</p>
+                    </div>
+                </div>
+                <div class="column-hanuman">
+                    <div class="col-hanuman">
+                        <div class="image-hanuman-id">
+                            <img src="touchid_icon_unlock__dcnpijuk476u_large.png" class="touch-id">
+                        </div>
+                        <h3 class="unlock-your-mac">Unlock your Mac</h3>
+
+                        <div class="use-pay">
+                            <img src="touchid_icon_applepay__ecbwfqmxgb8m_large.png" class="touch-id-id">
+                        </div>
+                        <h1 class="use-apple-pay">Use Apple Pay for<br> payments</h1>
+
+
+                        <div class="video-plaback">
+                            <img src="touchid_icon_protected__c3upubizihw2_large.png" class="open-password">
+                        </div>
+                        <h1 class="open-pass">Open password-<br>protected documents</h1>
+
+                        <div class="make-purchase">
+                            <img src="touchid_icon_appletv__3fs6e8i5vgya_large.png" class="apple-tv">
+                        </div>
+                        <h1 class="apple-tv-tv">Make purchases<br>
+                            on the Apple TV app</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!------------------------------------------------
+
+
+
+Connectivity                  -->
+
+
+    <div class="connectivity">
+        <div class="and-plays">
+            <h1 class="connection">Connectivity</h1>
+            <h1 class="charges">Charges, chats, streams,</h1>
+            <h1 class="works-hanuman">works, and plays well</h1>
+            <h1 class="with-others-others">with others.</h1>
+            <div class="with-others">
+                <img src="connectivity__e4v0fdp5fjcm_large.jpg" class="hii-deelip">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-------------------------------------------------------------------------
+
+
+
+
+Wi-Fi 6-->
+
+
+
+    <div class="wifi-id-id-gaima">
+        <div class="the-row">
+            <div class="garima">
+                <div class="the-col">
+                    <div class="the-name-of-my-girlfriend-is-none">
+                        <h3 class="wifi-6">Wi-Fi 6</h3>
+                        <p class="the-next-generation">The next generation of Wi‑Fi isn’t just faster — it <br>keeps
+                            MacBook Air going strong even as more and <br>more devices join the network.
+
+                        </p>
+                        <div class="wifi-logo">
+                            <img src="wifi__bvw76apdzfiq_large.png" class="up-to">
+                        </div>
+                        <h3 class="throughout">Wi-Fi 6</h3>
+                        <h3 class="dees">up to 1.2Gb/s throughput4</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="the-col">
+                <div class="k-id">
+                    <div class="charging-port">
+                        <h3 class="thunderbolt">thunderbolt</h3>
+                        <p class="ultra-high-bandwidth">Ultra‑high bandwidth meets ultra‑versatility.<br> Thunderbolt
+                            enables data transfer, charging,
+                            and<br> video output all through a single port — and<br> MacBook Air has two of them.</p>
+                    </div>
+                    <div class="row-mt-everest">
+                        <div class="col-kanchanga">
+                            <div class="sharma">
+                                <div class="charging-logo-apple">
+                                    <img src="thunderbolt_icon_charging__9088ui3etiam_large.png"
+                                        class="thunderbolt-hello">
+                                </div>
+                                <h3 class="charging-text">Charging</h3>
+
+                                <div class="pokhara">
+                                    <img src="thunderbolt_icon_transfer__8tj1fj5cn1eq_large.png" class="pokhara-1">
+                                </div>
+                                <h3 class="data-transfer">Data transfera<br>
+                                    up to 40Gb/s4</h3>
+                            </div>
+                        </div>
+                        <div class="col-kanchanga">
+                            <div class="kathmandu">
+                                <div class="extternal-display">
+                                    <img src="thunderbolt_icon_display__fc8ygzlxeu62_large.png" class="icon-display">
+                                </div>
+                                <h3 class="external-display-id-1">External display</h3>
+
+                                <div class="connect-your-devices">
+                                    <img src="thunderbolt_icon_connect__p26rhclzsduq_large.png" class="icon-connect">
+                                </div>
+                                <h3 class="your-devices">Connecting your <br>devices</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!----------------------------------------------------------------------------------------
+
+
+
+
+Use AR to see MacBook Air in your workspace.
+
+
+
+
+
+
+-->
+
+
+    <div class="use-ar-to-see">
+        <div class="chandan-rider">
+            <div class="workspace">
+                <div class="n-row">
+                    <div class="n-col">
+                        <div class="hanuman-chalisha">
+                            <div class="hello-garima">
+                                <img src="ar_icon__hvtmrzi5rcia_large.png" class="universe">
+                            </div>
+                            <h3 class="macbook-air-m1">Use AR to see<br> MacBook Air in<br> your workspace.</h3>
+                            <h4 class="ipad-ipad">Open this page using Safari on<br> your iPhone or iPad.</h4>
+                            <div class="circle"></div>
+                            <div class="circle-1"></div>
+                            <div class="circle-2"></div>
+
+                        </div>
+                    </div>
+                    <div class="n-col">
+                        <div class="ipad">
+                            <img src="ar_spacegray__zknfcsjq0lu6_large.jpg" class="lamborghini">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!----------------------------------------
+
+
+
+
+Which laptop is right for you?        -->
+
+
+
+
+    <div class="laptop">
+        <div class="for-you">
+            <div class="modeals">
+                <div class="urvasi-r">
+                    <h1 class="urvasi">Which laptop is right<br> for you? </h1>
+                    <a href="#">
+                        <p class="urvasi-2">Compare all mac models > </p>
+                    </a>
+                </div>
+                <div class="row-mc">
+                    <div class="col-mc-mc">
+                        <div class="mc-mac">
+                            <img src="compare_mba__h3jrdtzdcbm2_large.png" class="mba">
+                        </div>
+                        <div class="ocean">
+
+                        </div>
+                        <div class="from-81">
+                            <h3 class="MacBook-texc">MacBook Air<br>
+                                M1 chip</h3>
+                            <h3 class="month">From $83.25/mo. for 12 mo. or<br> $999**</h3>
+                            <h3 class="disply-pregination">13.3-inch Retina display5</h3>
+                            <h3 class="apple-mac-pregination">Apple M1 chip</h3>
+                            <h3 class="hours-battery-life-pregination">8GB or 16GB unified memory</h3>
+                            <h3 class="deepika-dhakal">256GB to 2TB storage3</h3>
+                            <h3 class="battery-life-pregination">Up to 18 hours battery life1</h3>
+                            <h3 class="touch-id-pregination">Touch ID</h3>
+                            <br>
+                            <a href="#"><button type="btn" class="button-pregination-id">Buy</button></a>
+                        </div>
+                    </div>
+
+                    <div class="col-mc-mc">
+                        <div class="mc-mac">
+                            <img src="compare_mba__h3jrdtzdcbm2_large.png" class="mba">
+                        </div>
+                        <div class="ocean">
+
+                        </div>
+                        <div class="from-81">
+                            <h3 class="MacBook-texc">MacBook Air<br>
+                                M2 chip</h3>
+                            <h3 class="month">From $99.91/mo. for 12 mo. or<br> $1199**</h3>
+                            <h3 class="disply-pregination">13.6-inch Liquid Retina display5</h3>
+                            <h3 class="apple-mac-pregination">Apple M2 chip</h3>
+                            <h3 class="hours-battery-life-pregination">8GB or 24GB unified memory</h3>
+                            <h3 class="deepika-dhakal">256GB to 2TB storage3</h3>
+                            <h3 class="battery-life-pregination">Up to 18 hours battery life6</h3>
+                            <h3 class="touch-id-pregination">Touch ID</h3>
+                            <a href="#"><button type="btn" class="button-pregination-id">Buy</button></a>
+                            <br>
+                            <a href="#" class="learn-more-pregination">learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-mc-mc">
+                        <div class="mc-mac">
+                            <img src="compare_mba__h3jrdtzdcbm2_large.png" class="mba">
+                        </div>
+                        <div class="ocean">
+
+                        </div>
+                        <div class="from-81">
+                            <h3 class="MacBook-texc">MacBook Pro 13"</h3>
+                            <h3 class="month">From $108.25/mo. for 12 mo. or<br> $1299**</h3>
+                            <h3 class="disply-pregination">13.3-inch Retina display5</h3>
+                            <h3 class="apple-mac-pregination">Apple M2 chip</h3>
+                            <h3 class="hours-battery-life-pregination">8GB or 24GB unified memory</h3>
+                            <h3 class="deepika-dhakal">256GB to 2TB storage3</h3>
+                            <h3 class="battery-life-pregination">Up to 20 hours battery life1</h3>
+                            <h3 class="touch-id-pregination">Touch bar and Touch ID</h3>
+                            <a href="#"><button type="btn" class="button-pregination-id">Buy</button></a>
+                            <br>
+                            <a href="#" class="learn-more-pregination">learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-mc-mc">
+                        <div class="mc-mac">
+                            <img src="compare_mba__h3jrdtzdcbm2_large.png" class="mba">
+                        </div>
+                        <div class="ocean">
+
+                        </div>
+                        <div class="from-81">
+                            <h3 class="MacBook-texc">MacBook Pro <br>14” and 16”</h3>
+                            <h3 class="month">From $166.58/mo. for 12 mo. or<br> $1999**</h3>
+                            <h3 class="disply-pregination">14.2-inch or 16.2-inch<br>
+                                Liquid Retina XDR display5</h3>
+                            <h3 class="apple-mac-pregination">Apple M2 Pro or<br>
+                                Apple M2 Max chip</h3>
+                            <h3 class="hours-battery-life-pregination">16GB or 96GB unified memory</h3>
+                            <h3 class="deepika-dhakal">512GB to 8TB storage3</h3>
+                            <h3 class="battery-life-pregination">Up to 22 hours battery life1</h3>
+                            <h3 class="touch-id-pregination">Touch ID</h3>
+                            <a href="#"><button type="btn" class="button-pregination-id">Buy</button></a>
+                            <br>
+                            <a href="#" class="learn-more-pregination">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------------------------
+
+
+
+mac os venture               -->
+
+
+
+
+
+
+    <div class="macos-venture">
+        <div class="work-smarter">
+            <img src="router_macos_ventura__hlw6jgutiwy2_large.jpg" class="practical">
+            <div class="eagle-form">
+                <h3 class="eagle-shadow">mac0S Venture</h3>
+                <h1 class="plays-harder">work smarter</h1>
+                <h1 class="plays-harder">plays harder</h1>
+                <h1 class="plays-harder">Goes further</h1>
+
+                <a href="#">
+                    <p class="git-hub">learn more ></p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------
+
+
+
+
+
+
+explore mac os accesories
+
+
+
+
+
+
+
+
+
+-->
+
+
+    <div class="continuity">
+        <div class="row-classification">
+            <div class="col-classification">
+                <div class="seamless-id-1">
+                    <div class="text-accesories">
+                        <p class="seamless">Accessories</p>
+                        <h3 class="access">Eplore Mac</h3>
+                        <h10 class="access">Accessories</h10>
+                        <br>
+                        <a href="#">
+                            <button type="button" class="sp">shop</button>
+                        </a>
+                    </div>
+                    <div class="air-contact">
+                        <img src="router_accessories__f5jgzv8ycvqu_large.jpg" class="router-1">
+                    </div>
+                </div>
+            </div>
+            <div class="col-classification">
+                <div class="coc-classification">
+                    <div class="text-accesories">
+                        <p class="seamless">Continuity</p>
+                        <h3 class="shopify">All your devices.</h3>
+                        <h10 class="shopify">One seamless</h10>
+                        <h3 class="shopify">experience</h3>
+                        <p class="like">Beacause Apple makes iPhone,iPad,Apple Watch, and<br> Mac,
+                            they work togethor like no other devices can.</p>
+
+                        <a href="#">
+                            <p class="spotify-3">learn more > </p>
+                        </a>
+                    </div>
+                    <div class="air-contact">
+                        <img src="router_continuity__euk1phbcdfee_large.jpg" class="router-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-------------------------
+    
+    
+    
+    
+    
+    
+    shoff the contenst -->
+
+
+
+
+    <div class="whottis-cee">
+        <div class="apple-at-wort">
+            <div class="apple-at-work-2">
+                <div class="apple-in-education">
+                    <img src="router_education__d86njie9hmaa_large.jpg" class="education-plan">
+                    <h3 class="california">Apple and Education</h3>
+                    <p class="empowering-educators">empowering educators and students to move the <br>
+                        world forward.</p>
+                    <a href="#">
+                        <p class="learn-pregination">learn more ></p>
+                    </a>
+                </div>
+            </div>
+            <div class="apple-at-work-2">
+                <div class="apple-in-education">
+                    <img src="router_business__bdrfem5m1d7m_large.jpg" class="educati-plan">
+                    <h3 class="california">Apple at work</h3>
+                    <p class="empowering-educators">Get the power to take your business to the next levels. </p>
+                    <a href="#">
+                        <p class="learn-pregination">shop for your business ></p>
+                    </a>
+                    <a href="#">
+                        <p class="learn-pregination">learn about Mac in busines ></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
